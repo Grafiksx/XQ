@@ -1,0 +1,246 @@
+/* #fff beyaz
+#0000 siyah
+##666666 gri
+#e5e5e5 light gri
+#ee7628 turuncu html bg 
+#1e90d7 mavi css bg
+#f7df1e sarı js bg 
+#333333 gri main son yazı
+#cbcbcb footer-text gri */
+body {
+    margin: 0;
+}
+.menü-logo {
+    height: 40px;
+    display: inline;
+    margin-right: 13%;
+}
+.menulogo {
+    height: 40px;
+    display: inline;
+    margin-right: 13%;
+}
+.menü {
+    display: flex;
+    margin-right: 35%;
+}
+.menü-item {
+    list-style: none;
+    display: flex;
+    margin-right: 30%;
+    font-family: Bricolage Grotesque;
+    height: 20px;
+    
+}
+.header-menu-text {
+    text-decoration: none;
+    color: black;
+}
+.header-menu-text:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: white;
+    transition: 1.4s;
+}
+header {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 1vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.664);
+    backdrop-filter: blur(2px);
+}
+.white-button {
+    margin-left: 10%;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.286);
+    backdrop-filter: blur(10px);
+}
+
+.black-button {
+    margin-left: 1%;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.white-button:hover {
+    backdrop-filter: sepia(20px);
+    background-color: rgb(77, 77, 77);
+    color: white;
+    transition: 0.7s;
+}
+.black-button:hover {
+    backdrop-filter: sepia(20px);
+    background-color: rgb(213, 213, 213);
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
+.button-1-text {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 5%;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   }
+.button-2-text {
+    display: flex;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+.section1 {
+    margin-top: 5.4%;
+    padding-top: 10%;
+    background-image:url(./img/bg-site1.1.png);
+    background-position: center;
+    background-size: cover;
+    height: 86.5vh;
+    text-align: center;
+}
+.main-head {
+    text-align: center;
+    font-family: Bricolage Grotesque;
+    border: none;
+    color: rgb(247, 247, 247);
+    font-size: 100px;
+}
+.main-button {
+    text-align: center;
+    height: 15%;
+    width: 15%;
+    background-color: grey;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 3.4%;
+}
+.main-button-text {
+    text-decoration: none;
+    color: white
+}
+.main-text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 300;
+    display: block;
+}
+.section2 {
+    padding-top: 5%;
+    background-color: #ee7628;
+    text-align: center;
+    padding-bottom: 2.8%;
+}
+.html-img {
+    height: auto;
+    width: 25%;
+    margin-bottom: 2%;
+}
+.section-text {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+.section3 {
+    background-color: #1e90d7;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.css-img {
+    height: auto;
+    width: 25%;
+    margin-bottom: 2%;
+}
+.section4 {
+    background-color: #f7df1e;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2.8%;
+}
+.js-img {
+    height: auto;
+    width: 25%;
+    margin-bottom: 2%;
+}
+.section5 {
+    background-image:url(./img/Başlıksız-8.png);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+    display: inline-block;
+    padding: 10%;
+}
+.html-text- {
+    height: 13%;
+    width: auto;
+    margin-right: 5%;
+}
+
+.js-text- {
+    height: 13%;
+    width: auto;
+    margin-right: 5%;
+}
+.css-text- {
+    height: 13%;
+    width: auto;
+   
+}
+.section5-head {
+   font-family: Bricolage Grotesque; 
+   font-size: 40px;
+   font-weight: 600;
+   color: white;
+   margin-top: 7%;
+   margin-bottom: 10%;
+}
+.section5-text {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+}
+footer {
+    background-color: #6666;
+    padding-top: 2%;
+
+}
+.footer-text {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.c {
+    color: white;
+    background-color: black;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 3%;
+}
