@@ -10,11 +10,12 @@
         padding-top: 1%;
     }
     .menü-logo {
-        display: flex;
+        display: block;
         padding: 0 0;
         margin: 0 0;
     }
     .menulogo {
+        display: block;
         margin: 0 0;
         padding: 0 0;
     }
@@ -25,7 +26,7 @@
         background-color: rgba(222, 222, 222, 0.587);
     }
     .section1 {
-        margin-top: 21.5%;
+        margin-top: 0%;
         text-align: center;
         height: auto;
         margin-bottom: 0 ;
@@ -46,10 +47,16 @@
         margin-top: 0;
         height: auto;
     }
+    .section4 .section-text {
+        color: rgb(0, 0, 0);
+    }
+    .section5-text {
+        color: rgb(0, 0, 0);
+    }
     .section5 {
         padding-left: 1%;
         padding-right: 1%;
-        padding-top: 10%;
+        
     }
     .section5 img {
     height: 9%;
