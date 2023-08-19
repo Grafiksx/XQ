@@ -135,6 +135,12 @@ header {
     color: white;
     margin-bottom: 3.4%;
 }
+.main-button:hover {
+    backdrop-filter: sepia(20px);
+    background-color: rgb(213, 213, 213);
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
 .main-button-text {
     text-decoration: none;
     color: white
@@ -176,7 +182,7 @@ header {
     margin-bottom: 2%;
 }
 .section4 {
-    background-color: #f7df1e;
+    background-color: #ece000;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 2.8%;
